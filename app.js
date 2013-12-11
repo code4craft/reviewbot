@@ -31,23 +31,14 @@ var server = http.createServer(function(req,res){
 	req.on('end',function(){
 		try{
 			body = decodeURIComponent(body);
-			body = JSON.parse(body.split("=")[1].replace(/\+/g,""));
+            console.log(body);
+//			body = JSON.parse(body.split("=")[1].replace(/\+/g,""));
+//			body = JSON.parse(body);
+
 		}catch(e){
 			console.error(e,body);
-		}
-		logMessages(body);
-		if(hasCommitOnBranch(body,"stage")){
-			exec(scripts.master,function(err,stdout,stderr){
-				console.log(new Date());
-				console.log(stdout);
-				res.end();
-			});
-		}else{
-			console.log(new Date());
-			console.log("nothing changed on stage, ignore");
-			res.end();
 		}
 	});
 });
 
-server.listen(5738);
+server.listen(8888);
