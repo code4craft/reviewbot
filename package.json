@@ -1,0 +1,22 @@
+{
+  "name": "review-bot",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.dianpingoa.com:f2e/search-static.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "gitHead": "21f48ed36c17cc69cc68941e6dfa88971f21089c",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.2",
+    "grunt-contrib-stylus": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.1"
+  }
+}
