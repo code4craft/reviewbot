@@ -1,0 +1,37 @@
+{
+    "after": "bf026b4c9887bba98f11819353777733807c0f66", 
+    "before": "be390d147a34eeae11de3c432cfa32d0e4136ab3", 
+    "commits": [
+        {
+            "author": {
+                "email": "code4crafter@gmail.com", 
+                "name": "yihua.huang"
+            }, 
+            "id": "fa447d9945b52bc70cad00fe4cc715ba3ddd920a", 
+            "message": "init", 
+            "timestamp": "2013-12-11T16:05:08+08:00", 
+            "url": "http://code.dianpingoa.com/yihua.huang/reviewbot/commit/fa447d9945b52bc70cad00fe4cc715ba3ddd920a"
+        }, 
+        {
+            "author": {
+                "email": "code4crafter@gmail.com", 
+                "name": "yihua.huang"
+            }, 
+            "id": "bf026b4c9887bba98f11819353777733807c0f66", 
+            "message": "init", 
+            "timestamp": "2013-12-11T16:23:24+08:00", 
+            "url": "http://code.dianpingoa.com/yihua.huang/reviewbot/commit/bf026b4c9887bba98f11819353777733807c0f66"
+        }
+    ], 
+    "ref": "refs/heads/master", 
+    "repository": {
+        "description": "", 
+        "homepage": "http://code.dianpingoa.com/yihua.huang/reviewbot", 
+        "name": "reviewbot", 
+        "url": "git@code.dianpingoa.com:yihua.huang/reviewbot.git"
+    }, 
+    "total_commits_count": 2, 
+    "user_id": 190, 
+    "user_name": "yihua.huang"
+}
+
