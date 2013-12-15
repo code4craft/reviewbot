@@ -1,3 +1,2 @@
-/**
- * Created by yihua on 13-12-11.
- */
+var app = require("./lib/app.js")
+app.run();

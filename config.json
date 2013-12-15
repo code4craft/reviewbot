@@ -1,5 +1,6 @@
 {
-    "path":"/data/reviewbot",
+    "path": "/data/reviewbot",
+    "port": 8888,
     "bot": {
         "file": "freemarker.properties",
         "encoding": "utf-8",
