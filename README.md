@@ -1,6 +1,6 @@
 reviewbot
 =========
->gitlab防呆小工具，自动帮你修正2B代码。
+>gitlab防呆机器人，自动帮你修正2B代码。
 
 ## 使用：
 
@@ -28,3 +28,9 @@ reviewbot
     }
 }
 ```
+
+配置gitlab的hook地址：`http://your-host:port`
+
+## 效果：
+
+![image](http://static.oschina.net/uploads/space/2013/1215/222654_XOR1_190591.png)
